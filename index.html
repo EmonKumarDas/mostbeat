@@ -30,6 +30,14 @@ URI     : https://colorlib.com
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <!-- Main css -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        @media (max-width: 600px) {
+            div[style*="display: flex;"] div[style*="display: flex;"] a {
+                width: 100%;
+                max-width: 150px;
+            }
+        }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target="#navbar" data-offset="30">
@@ -50,6 +58,7 @@ URI     : https://colorlib.com
                                 <li class="nav-item"> <a class="nav-link active" href="#home">HOME <span
                                             class="sr-only">(current)</span></a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#features">FEATURES</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#faq">FAQ</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#contact">CONTACT</a> </li>
                                 <li class="nav-item"><a href="https://mostbetshaan.com/rahul"
                                         class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">SignIn</a></li>
@@ -283,7 +292,7 @@ URI     : https://colorlib.com
     <img src="images\Payout-methods_.png" style="width: 100%; margin: 0 auto;">
     <!-- // end .section -->
     <div class="section pt-0">
-        <div class="container">
+        <div class="container" id="faq">
             <div class="section-title">
                 <small>FAQ</small>
                 <h3>Frequently Asked Questions</h3>
@@ -391,22 +400,23 @@ URI     : https://colorlib.com
                     comply with all applicable laws and regulations. For inquiries or further information, please
                     contact us at: partners@mostbetaffiliate.com. </p>
 
-                <div style="display: flex; justify-content: center; margin-top: 20px;">
-                    <div style="display: flex; gap: 10px;">
-                        <a href="https://mostbetshaan.com/rahul"
-                            style="display: flex; align-items: center; justify-content: center; width: 150px; height: 50px; background-color: #ff7f50; color: white; text-decoration: none; border-radius: 5px;">
-                            <i class="fa-solid fa-right-to-bracket" style="margin-right: 8px;"></i> SignUp
-                        </a>
-                        <a href="https://mostbetshaan.com/rahul"
-                            style="display: flex; align-items: center; justify-content: center; width: 150px; height: 50px; background-color: #f8f9fa; color: #6c757d; text-decoration: none; border-radius: 5px;">
-                            <i class="fa-solid fa-user" style="margin-right: 8px;"></i> Login
-                        </a>
-                        <a href="https://mostbetshaan.com/rahul"
-                            style="display: flex; align-items: center; justify-content: center; width: 150px; height: 50px; background-color: #f8f9fa; border-radius: 5px;">
-                            <i class="fab fa-telegram-plane" style="color: blue; font-size: 24px;"></i>
-                        </a>
+                    <div style="display: flex; justify-content: center; margin-top: 20px;">
+                        <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
+                            <a href="https://mostbetshaan.com/rahul"
+                                style="display: flex; align-items: center; justify-content: center; width: 150px; height: 50px; background-color: #ff7f50; color: white; text-decoration: none; border-radius: 5px; margin: 5px;">
+                                <i class="fa-solid fa-right-to-bracket" style="margin-right: 8px;"></i> SignUp
+                            </a>
+                            <a href="https://mostbetshaan.com/rahul"
+                                style="display: flex; align-items: center; justify-content: center; width: 150px; height: 50px; background-color: #f8f9fa; color: #6c757d; text-decoration: none; border-radius: 5px; margin: 5px;">
+                                <i class="fa-solid fa-user" style="margin-right: 8px;"></i> Login
+                            </a>
+                            <a href="https://mostbetshaan.com/rahul"
+                                style="display: flex; align-items: center; justify-content: center; width: 150px; height: 50px; background-color: #f8f9fa; border-radius: 5px; margin: 5px;">
+                                <i class="fab fa-telegram-plane" style="color: blue; font-size: 24px;"></i>
+                            </a>
+                        </div>
                     </div>
-                </div>
+
             </div>
         </div>
 
